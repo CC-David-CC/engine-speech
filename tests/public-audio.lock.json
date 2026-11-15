@@ -1,0 +1,11 @@
+{
+  "schema": "webos-speech-public-test-fixture/1",
+  "path": "jfk.wav",
+  "url": "https://huggingface.co/datasets/Xenova/transformers.js-docs/resolve/542437c29cc5273cfd29e25c77696f2b349badd7/jfk.wav",
+  "datasetRevision": "542437c29cc5273cfd29e25c77696f2b349badd7",
+  "bytes": 1940478,
+  "sha256": "aa81c2552465568567e670f3823117e633900d16bd6202346a72f3c8464c74c8",
+  "reference": "https://huggingface.co/docs/transformers.js/v3.8.1/en/api/pipelines",
+  "expectedNormalizedText": "and so my fellow americans ask not what your country can do for you ask what you can do for your country",
+  "scope": "Public Transformers.js documentation fixture for local inference acceptance only; not user audio, not included in runtime release artifact. Fixture redistribution remains a separate licensing review."
+}

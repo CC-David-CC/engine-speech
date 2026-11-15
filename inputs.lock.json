@@ -1,0 +1,406 @@
+{
+  "schema": "webos-speech-inputs/1",
+  "capturedProvenanceSha256": "3585e96928fc9f87e14311e9a6df2dc32b5b1f5d43bb6b89f30ada791b2dc831",
+  "transformersVersion": "3.8.1",
+  "onnxruntimeVersion": "1.22.0-dev.20250409-89f8206ba4",
+  "model": "onnx-community/whisper-tiny.en",
+  "modelRevision": "2575352d61be1bf7225cf8f8b268a4678025fc58",
+  "files": [
+    {
+      "path": "models/onnx-community/whisper-tiny.en/README.md",
+      "bytes": 537,
+      "sha256": "5f1d9253fc9a536c3cd05bcb20128963e6c545c32294bf3cc4e3b5c0bf570c96",
+      "source": {
+        "type": "model-revision-file",
+        "url": "https://huggingface.co/onnx-community/whisper-tiny.en/resolve/2575352d61be1bf7225cf8f8b268a4678025fc58/README.md",
+        "model": "onnx-community/whisper-tiny.en",
+        "revision": "2575352d61be1bf7225cf8f8b268a4678025fc58"
+      }
+    },
+    {
+      "path": "models/onnx-community/whisper-tiny.en/added_tokens.json",
+      "bytes": 34604,
+      "sha256": "560be47bea388757f8d4cc185c5d82067426cbb6361e38016dd90ddc01ab203a",
+      "source": {
+        "type": "model-revision-file",
+        "url": "https://huggingface.co/onnx-community/whisper-tiny.en/resolve/2575352d61be1bf7225cf8f8b268a4678025fc58/added_tokens.json",
+        "model": "onnx-community/whisper-tiny.en",
+        "revision": "2575352d61be1bf7225cf8f8b268a4678025fc58"
+      }
+    },
+    {
+      "path": "models/onnx-community/whisper-tiny.en/config.json",
+      "bytes": 2197,
+      "sha256": "251ea843b5901a99efa58c0b99b8052c6019aa3e7d2baf46693a1128ff606233",
+      "source": {
+        "type": "model-revision-file",
+        "url": "https://huggingface.co/onnx-community/whisper-tiny.en/resolve/2575352d61be1bf7225cf8f8b268a4678025fc58/config.json",
+        "model": "onnx-community/whisper-tiny.en",
+        "revision": "2575352d61be1bf7225cf8f8b268a4678025fc58"
+      }
+    },
+    {
+      "path": "models/onnx-community/whisper-tiny.en/generation_config.json",
+      "bytes": 1646,
+      "sha256": "7b2e8451ed5f118e75fdd991409d72119d21d2fef1eba9723f68fb9c57fe5dc9",
+      "source": {
+        "type": "model-revision-file",
+        "url": "https://huggingface.co/onnx-community/whisper-tiny.en/resolve/2575352d61be1bf7225cf8f8b268a4678025fc58/generation_config.json",
+        "model": "onnx-community/whisper-tiny.en",
+        "revision": "2575352d61be1bf7225cf8f8b268a4678025fc58"
+      }
+    },
+    {
+      "path": "models/onnx-community/whisper-tiny.en/merges.txt",
+      "bytes": 456318,
+      "sha256": "1ce1664773c50f3e0cc8842619a93edc4624525b728b188a9e0be33b7726adc5",
+      "source": {
+        "type": "model-revision-file",
+        "url": "https://huggingface.co/onnx-community/whisper-tiny.en/resolve/2575352d61be1bf7225cf8f8b268a4678025fc58/merges.txt",
+        "model": "onnx-community/whisper-tiny.en",
+        "revision": "2575352d61be1bf7225cf8f8b268a4678025fc58"
+      }
+    },
+    {
+      "path": "models/onnx-community/whisper-tiny.en/normalizer.json",
+      "bytes": 52666,
+      "sha256": "bf1c507dc8724ca9cf9903640dacfb69dae2f00edee4f21ceba106a7392f26dd",
+      "source": {
+        "type": "model-revision-file",
+        "url": "https://huggingface.co/onnx-community/whisper-tiny.en/resolve/2575352d61be1bf7225cf8f8b268a4678025fc58/normalizer.json",
+        "model": "onnx-community/whisper-tiny.en",
+        "revision": "2575352d61be1bf7225cf8f8b268a4678025fc58"
+      }
+    },
+    {
+      "path": "models/onnx-community/whisper-tiny.en/onnx/decoder_model_merged_quantized.onnx",
+      "bytes": 30718858,
+      "sha256": "c0592d0749413c960569e1c7fb806b060d5d18f3ebad4a95cbf9a77dc6e9be52",
+      "source": {
+        "type": "model-revision-file",
+        "url": "https://huggingface.co/onnx-community/whisper-tiny.en/resolve/2575352d61be1bf7225cf8f8b268a4678025fc58/onnx/decoder_model_merged_quantized.onnx",
+        "model": "onnx-community/whisper-tiny.en",
+        "revision": "2575352d61be1bf7225cf8f8b268a4678025fc58"
+      }
+    },
+    {
+      "path": "models/onnx-community/whisper-tiny.en/onnx/encoder_model_quantized.onnx",
+      "bytes": 10124993,
+      "sha256": "e93ec822f16a8fd264e7de972ad17d615ea7334b75a52d54c50c2e18dd503a25",
+      "source": {
+        "type": "model-revision-file",
+        "url": "https://huggingface.co/onnx-community/whisper-tiny.en/resolve/2575352d61be1bf7225cf8f8b268a4678025fc58/onnx/encoder_model_quantized.onnx",
+        "model": "onnx-community/whisper-tiny.en",
+        "revision": "2575352d61be1bf7225cf8f8b268a4678025fc58"
+      }
+    },
+    {
+      "path": "models/onnx-community/whisper-tiny.en/preprocessor_config.json",
+      "bytes": 339,
+      "sha256": "a6a76d28c93edb273669eb9e0b0636a2bddbb1272c3261e47b7ca6dfdbac1b8d",
+      "source": {
+        "type": "model-revision-file",
+        "url": "https://huggingface.co/onnx-community/whisper-tiny.en/resolve/2575352d61be1bf7225cf8f8b268a4678025fc58/preprocessor_config.json",
+        "model": "onnx-community/whisper-tiny.en",
+        "revision": "2575352d61be1bf7225cf8f8b268a4678025fc58"
+      }
+    },
+    {
+      "path": "models/onnx-community/whisper-tiny.en/special_tokens_map.json",
+      "bytes": 2173,
+      "sha256": "98bdf3ec5b32e31575b02f64b0a32bde7c0449075d34484a7df9bdd3cdeb9fb9",
+      "source": {
+        "type": "model-revision-file",
+        "url": "https://huggingface.co/onnx-community/whisper-tiny.en/resolve/2575352d61be1bf7225cf8f8b268a4678025fc58/special_tokens_map.json",
+        "model": "onnx-community/whisper-tiny.en",
+        "revision": "2575352d61be1bf7225cf8f8b268a4678025fc58"
+      }
+    },
+    {
+      "path": "models/onnx-community/whisper-tiny.en/tokenizer.json",
+      "bytes": 2405679,
+      "sha256": "5eb60cec1e77aeeb6869a2bb5a8e01a84c3fe5d072d75369343021fe6f5310d0",
+      "source": {
+        "type": "model-revision-file",
+        "url": "https://huggingface.co/onnx-community/whisper-tiny.en/resolve/2575352d61be1bf7225cf8f8b268a4678025fc58/tokenizer.json",
+        "model": "onnx-community/whisper-tiny.en",
+        "revision": "2575352d61be1bf7225cf8f8b268a4678025fc58"
+      }
+    },
+    {
+      "path": "models/onnx-community/whisper-tiny.en/tokenizer_config.json",
+      "bytes": 282662,
+      "sha256": "93879c3dccdd4b976f709acd85b44778873f30c275e67026f30ca1e4c975230c",
+      "source": {
+        "type": "model-revision-file",
+        "url": "https://huggingface.co/onnx-community/whisper-tiny.en/resolve/2575352d61be1bf7225cf8f8b268a4678025fc58/tokenizer_config.json",
+        "model": "onnx-community/whisper-tiny.en",
+        "revision": "2575352d61be1bf7225cf8f8b268a4678025fc58"
+      }
+    },
+    {
+      "path": "models/onnx-community/whisper-tiny.en/vocab.json",
+      "bytes": 999186,
+      "sha256": "f6bd25a65e4e63ca31360e9fb11c7e4f9a391a78385d640acd814092dd6eee4f",
+      "source": {
+        "type": "model-revision-file",
+        "url": "https://huggingface.co/onnx-community/whisper-tiny.en/resolve/2575352d61be1bf7225cf8f8b268a4678025fc58/vocab.json",
+        "model": "onnx-community/whisper-tiny.en",
+        "revision": "2575352d61be1bf7225cf8f8b268a4678025fc58"
+      }
+    },
+    {
+      "path": "notices/transformers/LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "source": {
+        "type": "npm-tar-member",
+        "url": "https://registry.npmjs.org/@huggingface/transformers/-/transformers-3.8.1.tgz",
+        "sha1": "317da003865322396796173223eeaaf0f9723f0a",
+        "integrity": "sha512-tsTk4zVjImqdqjS8/AOZg2yNLd1z9S5v+7oUPpXaasDRwEDhB+xnglK1k5cad26lL5/ZIaeREgWWy0bs9y9pPA==",
+        "member": "package/LICENSE"
+      }
+    },
+    {
+      "path": "vendor/ort-wasm-simd-threaded.jsep.mjs",
+      "bytes": 44484,
+      "sha256": "08fb86ec433c78bfb032c5d84a68b8e8e5a8d81268fa39e24314179a5767a5b9",
+      "source": {
+        "type": "npm-tar-member",
+        "url": "https://registry.npmjs.org/onnxruntime-web/-/onnxruntime-web-1.22.0-dev.20250409-89f8206ba4.tgz",
+        "sha1": "d1e3a04e03dfee392b41d420ef547b6a0351b06b",
+        "integrity": "sha512-0uS76OPgH0hWCPrFKlL8kYVV7ckM7t/36HfbgoFw6Nd0CZVVbQC4PkrR8mBX8LtNUFZO25IQBqV2Hx2ho3FlbQ==",
+        "member": "package/dist/ort-wasm-simd-threaded.jsep.mjs"
+      }
+    },
+    {
+      "path": "vendor/ort-wasm-simd-threaded.jsep.wasm",
+      "bytes": 21596019,
+      "sha256": "c46655e8a94afc45338d4cb2b840475f88e5012d524509916e505079c00bfa39",
+      "source": {
+        "type": "npm-tar-member",
+        "url": "https://registry.npmjs.org/onnxruntime-web/-/onnxruntime-web-1.22.0-dev.20250409-89f8206ba4.tgz",
+        "sha1": "d1e3a04e03dfee392b41d420ef547b6a0351b06b",
+        "integrity": "sha512-0uS76OPgH0hWCPrFKlL8kYVV7ckM7t/36HfbgoFw6Nd0CZVVbQC4PkrR8mBX8LtNUFZO25IQBqV2Hx2ho3FlbQ==",
+        "member": "package/dist/ort-wasm-simd-threaded.jsep.wasm"
+      }
+    },
+    {
+      "path": "vendor/ort-wasm-simd-threaded.mjs",
+      "bytes": 20856,
+      "sha256": "43c25054b6b9ac000f786c65545ff83a45f871e0e310e8c2f4d48a363bb66db4",
+      "source": {
+        "type": "npm-tar-member",
+        "url": "https://registry.npmjs.org/onnxruntime-web/-/onnxruntime-web-1.22.0-dev.20250409-89f8206ba4.tgz",
+        "sha1": "d1e3a04e03dfee392b41d420ef547b6a0351b06b",
+        "integrity": "sha512-0uS76OPgH0hWCPrFKlL8kYVV7ckM7t/36HfbgoFw6Nd0CZVVbQC4PkrR8mBX8LtNUFZO25IQBqV2Hx2ho3FlbQ==",
+        "member": "package/dist/ort-wasm-simd-threaded.mjs"
+      }
+    },
+    {
+      "path": "vendor/ort-wasm-simd-threaded.wasm",
+      "bytes": 11133407,
+      "sha256": "f061472c6e77d6d50d079aacdc0ff9b63fee287ddd2cbf46cf62438d3891de2b",
+      "source": {
+        "type": "npm-tar-member",
+        "url": "https://registry.npmjs.org/onnxruntime-web/-/onnxruntime-web-1.22.0-dev.20250409-89f8206ba4.tgz",
+        "sha1": "d1e3a04e03dfee392b41d420ef547b6a0351b06b",
+        "integrity": "sha512-0uS76OPgH0hWCPrFKlL8kYVV7ckM7t/36HfbgoFw6Nd0CZVVbQC4PkrR8mBX8LtNUFZO25IQBqV2Hx2ho3FlbQ==",
+        "member": "package/dist/ort-wasm-simd-threaded.wasm"
+      }
+    },
+    {
+      "path": "vendor/ort.all.bundle.min.mjs",
+      "bytes": 832611,
+      "sha256": "beeb67c01ba936aadd43250df2457a89ba2500ad0dbdbfa09f9ddcfc33439697",
+      "source": {
+        "type": "npm-tar-member",
+        "url": "https://registry.npmjs.org/onnxruntime-web/-/onnxruntime-web-1.22.0-dev.20250409-89f8206ba4.tgz",
+        "sha1": "d1e3a04e03dfee392b41d420ef547b6a0351b06b",
+        "integrity": "sha512-0uS76OPgH0hWCPrFKlL8kYVV7ckM7t/36HfbgoFw6Nd0CZVVbQC4PkrR8mBX8LtNUFZO25IQBqV2Hx2ho3FlbQ==",
+        "member": "package/dist/ort.all.bundle.min.mjs"
+      }
+    },
+    {
+      "path": "vendor/ort.all.min.mjs",
+      "bytes": 789326,
+      "sha256": "66a5c63b53b8f5a31702076983c682604dfef7ddabbb6b928337e29850854ba9",
+      "source": {
+        "type": "npm-tar-member",
+        "url": "https://registry.npmjs.org/onnxruntime-web/-/onnxruntime-web-1.22.0-dev.20250409-89f8206ba4.tgz",
+        "sha1": "d1e3a04e03dfee392b41d420ef547b6a0351b06b",
+        "integrity": "sha512-0uS76OPgH0hWCPrFKlL8kYVV7ckM7t/36HfbgoFw6Nd0CZVVbQC4PkrR8mBX8LtNUFZO25IQBqV2Hx2ho3FlbQ==",
+        "member": "package/dist/ort.all.min.mjs"
+      }
+    },
+    {
+      "path": "vendor/ort.all.mjs",
+      "bytes": 5655719,
+      "sha256": "d80a4e7c14bb7afcb7788bed499f5cef13dc0b335d49462e1b0616e503092a3a",
+      "source": {
+        "type": "npm-tar-member",
+        "url": "https://registry.npmjs.org/onnxruntime-web/-/onnxruntime-web-1.22.0-dev.20250409-89f8206ba4.tgz",
+        "sha1": "d1e3a04e03dfee392b41d420ef547b6a0351b06b",
+        "integrity": "sha512-0uS76OPgH0hWCPrFKlL8kYVV7ckM7t/36HfbgoFw6Nd0CZVVbQC4PkrR8mBX8LtNUFZO25IQBqV2Hx2ho3FlbQ==",
+        "member": "package/dist/ort.all.mjs"
+      }
+    },
+    {
+      "path": "vendor/ort.bundle.min.mjs",
+      "bytes": 398170,
+      "sha256": "96e80b413dda387fbcefbd2bb0015f6708323767cc0dd5383260106582e77781",
+      "source": {
+        "type": "npm-tar-member",
+        "url": "https://registry.npmjs.org/onnxruntime-web/-/onnxruntime-web-1.22.0-dev.20250409-89f8206ba4.tgz",
+        "sha1": "d1e3a04e03dfee392b41d420ef547b6a0351b06b",
+        "integrity": "sha512-0uS76OPgH0hWCPrFKlL8kYVV7ckM7t/36HfbgoFw6Nd0CZVVbQC4PkrR8mBX8LtNUFZO25IQBqV2Hx2ho3FlbQ==",
+        "member": "package/dist/ort.bundle.min.mjs"
+      }
+    },
+    {
+      "path": "vendor/ort.min.mjs",
+      "bytes": 355057,
+      "sha256": "70869c209b39097fe577ac4c1ae60cbfdf1574747b2d644423c16ffd9af7f2b5",
+      "source": {
+        "type": "npm-tar-member",
+        "url": "https://registry.npmjs.org/onnxruntime-web/-/onnxruntime-web-1.22.0-dev.20250409-89f8206ba4.tgz",
+        "sha1": "d1e3a04e03dfee392b41d420ef547b6a0351b06b",
+        "integrity": "sha512-0uS76OPgH0hWCPrFKlL8kYVV7ckM7t/36HfbgoFw6Nd0CZVVbQC4PkrR8mBX8LtNUFZO25IQBqV2Hx2ho3FlbQ==",
+        "member": "package/dist/ort.min.mjs"
+      }
+    },
+    {
+      "path": "vendor/ort.mjs",
+      "bytes": 2528294,
+      "sha256": "9127f0db451488f1adec5d66be7b269befe68808d2a071b7ec9bd00b78b7d800",
+      "source": {
+        "type": "npm-tar-member",
+        "url": "https://registry.npmjs.org/onnxruntime-web/-/onnxruntime-web-1.22.0-dev.20250409-89f8206ba4.tgz",
+        "sha1": "d1e3a04e03dfee392b41d420ef547b6a0351b06b",
+        "integrity": "sha512-0uS76OPgH0hWCPrFKlL8kYVV7ckM7t/36HfbgoFw6Nd0CZVVbQC4PkrR8mBX8LtNUFZO25IQBqV2Hx2ho3FlbQ==",
+        "member": "package/dist/ort.mjs"
+      }
+    },
+    {
+      "path": "vendor/ort.node.min.mjs",
+      "bytes": 25219,
+      "sha256": "59cc79101d678aaf085d52f97d37195b1ed7a4d3bb6177d53038c5be12251a83",
+      "source": {
+        "type": "npm-tar-member",
+        "url": "https://registry.npmjs.org/onnxruntime-web/-/onnxruntime-web-1.22.0-dev.20250409-89f8206ba4.tgz",
+        "sha1": "d1e3a04e03dfee392b41d420ef547b6a0351b06b",
+        "integrity": "sha512-0uS76OPgH0hWCPrFKlL8kYVV7ckM7t/36HfbgoFw6Nd0CZVVbQC4PkrR8mBX8LtNUFZO25IQBqV2Hx2ho3FlbQ==",
+        "member": "package/dist/ort.node.min.mjs"
+      }
+    },
+    {
+      "path": "vendor/ort.wasm.bundle.min.mjs",
+      "bytes": 48022,
+      "sha256": "ce886d4ba4d4612eb288715bc23794dd3fadbc9c83e27d2d984df4d1ba149524",
+      "source": {
+        "type": "npm-tar-member",
+        "url": "https://registry.npmjs.org/onnxruntime-web/-/onnxruntime-web-1.22.0-dev.20250409-89f8206ba4.tgz",
+        "sha1": "d1e3a04e03dfee392b41d420ef547b6a0351b06b",
+        "integrity": "sha512-0uS76OPgH0hWCPrFKlL8kYVV7ckM7t/36HfbgoFw6Nd0CZVVbQC4PkrR8mBX8LtNUFZO25IQBqV2Hx2ho3FlbQ==",
+        "member": "package/dist/ort.wasm.bundle.min.mjs"
+      }
+    },
+    {
+      "path": "vendor/ort.wasm.min.mjs",
+      "bytes": 48008,
+      "sha256": "0cb5ac5be2c414d5b9e361f857108630c6d6e24a5ab9be3cf5f761de55289e94",
+      "source": {
+        "type": "npm-tar-member",
+        "url": "https://registry.npmjs.org/onnxruntime-web/-/onnxruntime-web-1.22.0-dev.20250409-89f8206ba4.tgz",
+        "sha1": "d1e3a04e03dfee392b41d420ef547b6a0351b06b",
+        "integrity": "sha512-0uS76OPgH0hWCPrFKlL8kYVV7ckM7t/36HfbgoFw6Nd0CZVVbQC4PkrR8mBX8LtNUFZO25IQBqV2Hx2ho3FlbQ==",
+        "member": "package/dist/ort.wasm.min.mjs"
+      }
+    },
+    {
+      "path": "vendor/ort.wasm.mjs",
+      "bytes": 545806,
+      "sha256": "98fe788f08034b3417c1fa94493a9dd0089485e53fa7010b13f7a137977549fa",
+      "source": {
+        "type": "npm-tar-member",
+        "url": "https://registry.npmjs.org/onnxruntime-web/-/onnxruntime-web-1.22.0-dev.20250409-89f8206ba4.tgz",
+        "sha1": "d1e3a04e03dfee392b41d420ef547b6a0351b06b",
+        "integrity": "sha512-0uS76OPgH0hWCPrFKlL8kYVV7ckM7t/36HfbgoFw6Nd0CZVVbQC4PkrR8mBX8LtNUFZO25IQBqV2Hx2ho3FlbQ==",
+        "member": "package/dist/ort.wasm.mjs"
+      }
+    },
+    {
+      "path": "vendor/ort.webgl.min.mjs",
+      "bytes": 454034,
+      "sha256": "04a111069b2b60a74d4eb87cf21a2744ac1cb41c14bc9bec0e5966244cd84f6c",
+      "source": {
+        "type": "npm-tar-member",
+        "url": "https://registry.npmjs.org/onnxruntime-web/-/onnxruntime-web-1.22.0-dev.20250409-89f8206ba4.tgz",
+        "sha1": "d1e3a04e03dfee392b41d420ef547b6a0351b06b",
+        "integrity": "sha512-0uS76OPgH0hWCPrFKlL8kYVV7ckM7t/36HfbgoFw6Nd0CZVVbQC4PkrR8mBX8LtNUFZO25IQBqV2Hx2ho3FlbQ==",
+        "member": "package/dist/ort.webgl.min.mjs"
+      }
+    },
+    {
+      "path": "vendor/ort.webgl.mjs",
+      "bytes": 3362598,
+      "sha256": "abe1638a6953967c85a9ddcfc3449fab483ed3c3cff6c82e0f5c400387a07a2b",
+      "source": {
+        "type": "npm-tar-member",
+        "url": "https://registry.npmjs.org/onnxruntime-web/-/onnxruntime-web-1.22.0-dev.20250409-89f8206ba4.tgz",
+        "sha1": "d1e3a04e03dfee392b41d420ef547b6a0351b06b",
+        "integrity": "sha512-0uS76OPgH0hWCPrFKlL8kYVV7ckM7t/36HfbgoFw6Nd0CZVVbQC4PkrR8mBX8LtNUFZO25IQBqV2Hx2ho3FlbQ==",
+        "member": "package/dist/ort.webgl.mjs"
+      }
+    },
+    {
+      "path": "vendor/ort.webgpu.bundle.min.mjs",
+      "bytes": 398191,
+      "sha256": "315910a5b1c94f1394d7d7d12f753c16085428b636bb6c8d0e3867c66a5acdf0",
+      "source": {
+        "type": "npm-tar-member",
+        "url": "https://registry.npmjs.org/onnxruntime-web/-/onnxruntime-web-1.22.0-dev.20250409-89f8206ba4.tgz",
+        "sha1": "d1e3a04e03dfee392b41d420ef547b6a0351b06b",
+        "integrity": "sha512-0uS76OPgH0hWCPrFKlL8kYVV7ckM7t/36HfbgoFw6Nd0CZVVbQC4PkrR8mBX8LtNUFZO25IQBqV2Hx2ho3FlbQ==",
+        "member": "package/dist/ort.webgpu.bundle.min.mjs"
+      }
+    },
+    {
+      "path": "vendor/ort.webgpu.min.mjs",
+      "bytes": 355071,
+      "sha256": "0e8b345c2fa92adac1a309e0d01fb8ba3aaf1e42140734bbed6f4ffad0bfcfd6",
+      "source": {
+        "type": "npm-tar-member",
+        "url": "https://registry.npmjs.org/onnxruntime-web/-/onnxruntime-web-1.22.0-dev.20250409-89f8206ba4.tgz",
+        "sha1": "d1e3a04e03dfee392b41d420ef547b6a0351b06b",
+        "integrity": "sha512-0uS76OPgH0hWCPrFKlL8kYVV7ckM7t/36HfbgoFw6Nd0CZVVbQC4PkrR8mBX8LtNUFZO25IQBqV2Hx2ho3FlbQ==",
+        "member": "package/dist/ort.webgpu.min.mjs"
+      }
+    },
+    {
+      "path": "vendor/ort.webgpu.mjs",
+      "bytes": 2528301,
+      "sha256": "5164df5b085eb55c77dcf8feba8f6c66e823c3cd693fc66e0f2bb2386b69a705",
+      "source": {
+        "type": "npm-tar-member",
+        "url": "https://registry.npmjs.org/onnxruntime-web/-/onnxruntime-web-1.22.0-dev.20250409-89f8206ba4.tgz",
+        "sha1": "d1e3a04e03dfee392b41d420ef547b6a0351b06b",
+        "integrity": "sha512-0uS76OPgH0hWCPrFKlL8kYVV7ckM7t/36HfbgoFw6Nd0CZVVbQC4PkrR8mBX8LtNUFZO25IQBqV2Hx2ho3FlbQ==",
+        "member": "package/dist/ort.webgpu.mjs"
+      }
+    },
+    {
+      "path": "vendor/transformers.min.js",
+      "bytes": 888173,
+      "sha256": "aa5002b70e789798da263f5f99c62bd3e8fcd0c119258a493c40c180648365fa",
+      "source": {
+        "type": "npm-tar-member",
+        "url": "https://registry.npmjs.org/@huggingface/transformers/-/transformers-3.8.1.tgz",
+        "sha1": "317da003865322396796173223eeaaf0f9723f0a",
+        "integrity": "sha512-tsTk4zVjImqdqjS8/AOZg2yNLd1z9S5v+7oUPpXaasDRwEDhB+xnglK1k5cad26lL5/ZIaeREgWWy0bs9y9pPA==",
+        "member": "package/dist/transformers.min.js"
+      }
+    }
+  ],
+  "verification": "All model files match original bytes/SHA256. npm tarballs match captured SHA1/SHA512 and complete file count/unpacked size. Package signature fields are retained provenance, not independently cryptographically verified. No dependency script executed."
+}
